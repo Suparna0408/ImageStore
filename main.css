@@ -1,0 +1,67 @@
+
+        /* CSS applied on section  */
+        .section {
+            height: 50vh;
+            width: 96vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            margin: 69px 13px 53px 13px;
+
+        }
+
+        .section::after {
+            content: "";
+            background-image: url("/all/ddd.webp");
+            background-size: 96vw 80vh;
+            width: 96vw;
+            height: inherit;
+            position: absolute;
+            opacity: 90%;
+        }
+
+        .section p {
+            /* color: rgb(243, 14, 167); */
+            color: white;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bolder;
+            position: relative;
+            top: 0px;
+            right: 0px;
+            z-index: 1;
+            margin: 80px;
+            text-align: center;
+        }
+
+        .section p:hover {
+            /* transform: scale(sx, sy); */
+            transform: scale(1.1, 1.5);
+
+        }
+
+        /* CSS applied on Container where the images are stored */
+
+        .container {
+            /* border: 3px solid green; */
+            margin: 50px 100px;
+            display: grid;
+            /* grid-gap: 100px; */
+            grid-row-gap: 0px;
+            grid-column-gap: 0px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .box  {
+            /* height: 225px;
+            width: 338px; */
+            height: 98%;
+            width: 99%;
+            /* margin: 0px 13px; */
+        }
+
+        .box:hover {
+            transform: scale(1.2, 1.3);
+        }

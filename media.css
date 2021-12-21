@@ -1,0 +1,179 @@
+@media screen and (max-width:1000px)
+{
+    header{
+        height: 45px;
+    }
+    .navbar ul li a{
+        font-size: 17px;
+    }
+    .navbar ul li a:hover{
+        color: var(--main-bg-color);
+        transform: scaleX(1.4);
+        font-size: 20px;
+    }
+    .navbar ul li {
+        padding: 0px 22px;
+    }
+    .logo img{
+        height: 30px;
+        width: 44px;
+        margin: 7px 42px;
+        border-radius: 19px;
+    }
+    .header-btn .btn{
+        top: 17px;
+        right: 53px;
+        font-size: 14px;
+    }
+    .header-btn .btn:hover{
+        height: 35px;
+        width: 152px;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .main .section p{
+        font-size: 24px;
+    }
+    .main .section{
+        height: 38vh;
+        margin: 55px 13px 34px 13px;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    .container{
+        margin: 30px 50px;
+    }
+    .main .section{
+        /* margin: 55px 13px 34px 13px; */
+        height: 30vh;
+    }
+    .main .section p{
+        font-size: 20px;
+    }
+    .header-btn .btn{
+        right: 38px;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    .navbar ul li a:hover{
+        color: var(--main-bg-color);
+        transform: scaleX(1.4);
+        font-size: 17px;
+    }
+    .navbar ul li {
+        padding: 0px 13px;
+    }
+    .navbar ul{
+        padding-inline-start: 15px;
+    }
+    .logo img{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .navbar ul{
+        display: none;
+    }
+    header .icon{
+        display: block;
+    }
+    header{
+        height: 39px;
+    }
+    .hide{
+        display: none;
+    }
+    .logo img{
+        height: 25px;
+        width: 40px;
+        margin: 6px 35px;
+        border-radius: 19px;
+    }
+    .main .section p{
+        font-size: 17px;
+    }
+    .main .section{
+        margin: 50px 13px 34px 13px;
+        height: 26vh;
+    }
+    .header-btn .btn{
+        top: 15px;
+        right: 46px;
+        font-size: 13px;
+    }
+    .header-btn .btn:hover{
+        height: 33px;
+        width: 150px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:400px)
+{
+    header{
+        height: 34px;
+    }
+    /* .header-btn .btn{
+        right: 16px;
+    } */
+    .logo img{
+        height: 20px;
+        width: 36px;
+        margin: 6px 33px;
+        border-radius: 19px;
+    }
+    .header-btn .btn{
+        top: 14px;
+        right: 30px;
+        height: 13px;
+        width: 66px;
+        font-size: 9px;
+    }
+    .header-btn .btn:hover{
+        height: 30px;
+        width: 150px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    .main .section p{
+        font-size: 13px;
+    }
+    .main .section{
+        height: 20vh;
+        margin: 45px 13px 34px 13px;
+    }
+    .container{
+        margin: 13px 20px;
+    }
+    #contri{
+        width: 50%;
+        /* margin-left: 13px; */
+    }
+    .foot-items{
+        width: 15%;
+        margin: 3px;
+        font-size: 13px;
+    }
+    .rights{    
+        font-size: 15px;
+    }
+}
+
+/* media quaries for sinup.html  */
+@media screen and (max-width: 700px){
+    .gender-form{
+        padding: 15px;
+    }
+    /* .gender-form input{
+        cursor: pointer;
+    } */
+    .gender-form label{
+        margin: 16px 45px 16px 16px;
+    }
+}

@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+.login{
+    height: 56vh;
+    margin-top: 6em;
+}
+
+.userform{
+    width: 39vw;
+    margin: auto;
+}
+
+.login-form input{
+    width: 39vw;
+    margin: 14px;
+    padding: 15px;
+    font-size: 1em;
+    height: 1vh;
+}
+
+.login-btn{
+    margin: auto;
+    width: 5vw;
+    height: 4vh;
+    padding: 33px;
+}
+
+.login-btn .btn{
+    width: 5vw;
+    height: 4vh;
+    /* margin: 33px; */
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-btn .btn:hover{
+    color: white;
+    background-color: rgb(228, 13, 146);
+    font-weight: bold;
+    height: 5vh;
+    width: 6vw;
+    /* margin-top: 9px; */
+    font-size: 17px;
+}

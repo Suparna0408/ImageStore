@@ -1,0 +1,57 @@
+/* input[type="text"]{
+    margin: 13px;
+} */
+h1{
+    text-align: center;
+}
+.sinup{
+    height: 96vh;
+    margin-top: 6em;
+}
+.form, .pass, .gender-form{
+    width: 45vw;
+    margin: auto;
+    /* padding: 26px; */
+}
+.gender-form{
+    padding: 26px;
+}
+.gender-form input{
+    cursor: pointer;
+}
+label{
+    margin: 16px 45px 16px 16px;
+}
+.form input, .pass input{
+    width: 45vw;
+    margin: 13px;
+    padding: 6px;
+}
+.submit{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    margin: 43px 13px 23px 13px;
+    padding: 4px 13px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.submit input:hover{
+    color: white;
+    background-color: rgb(228, 13, 146);
+    font-weight: bold;
+    height: 5vh;
+    width: 6vw;
+    margin-top: 9px;
+    font-size: 17px;
+}
+
+.login p{
+    text-align: center;
+}
+.login a{
+    text-decoration: none;
+}

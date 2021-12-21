@@ -1,0 +1,38 @@
+@media screen and (max-width:800px){
+    .para p{
+        font-size: 5px;
+    }
+    .para{
+        height: 40%;
+    }
+    #showtext{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 600px){
+    #message{
+        height: 22vh;
+        width: 32vw;
+        /* height: 14em;
+        width: 38em; */
+    }
+    .form label{
+        color: rgb(226, 171, 171);
+        font-size: 0.9rem;
+        /* padding: 23em; */
+    }
+    .email-send input{
+        font-size: 0.7em;
+    }
+    .form{
+        padding: 0.1em;
+    }
+    .whatsappform{
+        padding: 2em;
+        width: 71%;
+        /* position: fixed; */
+        top: 13%;
+        left: 15%;
+        height: 74%;
+    }
+}
