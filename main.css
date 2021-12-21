@@ -14,7 +14,7 @@
 
         .section::after {
             content: "";
-            background-image: url("/all/ddd.webp");
+            background-image: url("all/ddd.webp");
             background-size: 96vw 80vh;
             width: 96vw;
             height: inherit;
